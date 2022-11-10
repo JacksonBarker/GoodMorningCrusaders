@@ -4,7 +4,6 @@ Good Morning Crusaders simplifies the responsibilities of the St. Mary Catholic 
  - VLC Media Player installed in the default location.
  - FFmpeg defined in path, or "ffmpeg" binary path set in config.json. (e.g. "/usr/bin/ffmpeg")
 ## Run instructions
-### Linux
 ```
 # w/ Pipenv (Recommended)
 pip install pipenv # If required
@@ -16,13 +15,13 @@ pip install -r requirements.txt
 python GoodMorningCrusaders.py
 ```
 ## Build instructions
-*Build output is in "dist/" **not** "build/".*
-### Linux
+ - *Build output is in "dist/" **not** "build/".*
+ - *Files will be written to execution directory **not** executable directory.*
 ```
 # w/ Pipenv (Recommended)
 pip install pipenv # If required
 pipenv install --dev
-pipenv run pyinstaller GoodMorningCrusaders.py
+pipenv run pyinstaller --onefile --windowed GoodMorningCrusaders.py
 
 # w/o Pipenv (Not recommended)
 pip install -r dev-requirements.txt
