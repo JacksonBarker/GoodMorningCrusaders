@@ -1,6 +1,5 @@
 import os, sys
 from PyQt5 import QtWidgets
-from pyqt5vlc import Player
 from config import Config
 from main_dialog import MainDialog
 
@@ -16,6 +15,9 @@ def main():
     main_dialog.resize(700, 350)
     main_dialog.show()
     app.exec_()
+    if sys.platform.startswith('linux'):
+        os.environ.setdefault('PYTHON_VLC_MODULE_PATH', "/usr/lib64/vlc/plugins")
+    from pyqt5vlc import Player
     player = Player()
     player.showFullScreen()
     player.open_file(config["folders"]["outputs"] + "concat.mp4")
