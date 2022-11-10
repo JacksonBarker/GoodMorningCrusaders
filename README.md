@@ -29,6 +29,6 @@ pip install -r dev-requirements.txt
 pyinstaller GoodMorningCrusaders.py
 ```
 ## Attribution
-Good Morning Crusaders' source code makes use of modified versions of [Python ctypes bindings for VLC](vlc.py) and [PyQt5 example for VLC Python bindings](pyqt5vlc.py), both from [Python bindings for libvlc](https://git.videolan.org/git/vlc/bindings/python.git) and originally licensed under the terms of the GNU Lesser General Public License version 2.1 and GNU General Public License version 2 respectively, as published by the Free Software Foundation. VideoLAN, VLC, and VLC media player are trademarks internationally registered by the [VideoLAN non-profit organization](https://www.videolan.org/videolan/).
+Good Morning Crusaders' source code makes use of a modified version of [PyQt5 example for VLC Python bindings](pyqt5vlc.py) from [Python bindings for libvlc](https://git.videolan.org/git/vlc/bindings/python.git) and originally licensed under the terms of the GNU General Public License version 2, as published by the Free Software Foundation. VideoLAN, VLC, and VLC media player are trademarks internationally registered by the [VideoLAN non-profit organization](https://www.videolan.org/videolan/).
 
 Good Morning Crusaders is not endorsed by VideoLAN project.

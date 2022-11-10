@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 pyqt5 = "5.15.7"
+python-vlc = "3.0.16120"
 
 [dev-packages]
 pyinstaller = "5.6.2"

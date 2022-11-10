@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b8b13d05d8f852055c42260fcc9fb9886294fed87fa3326ef7d57e61a2729b14"
+            "sha256": "2feca66b28b42a6037c488df993ccc676e2351162f85d665b3c2e0453726b550"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -62,6 +62,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==12.11.0"
+        },
+        "python-vlc": {
+            "hashes": [
+                "sha256:92f98fee088f72bd6d063b3b3312d0bd29b37e7ad65ddeb3a7303320300c2807",
+                "sha256:c409afb38fe9f788a663b4302ca583f31289ef0860ab2b1668da96bbe8f14bfc"
+            ],
+            "index": "pypi",
+            "version": "==3.0.16120"
         }
     },
     "develop": {
