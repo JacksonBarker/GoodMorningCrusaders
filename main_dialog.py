@@ -85,6 +85,7 @@ class MainDialog(QtWidgets.QMainWindow):
         layout.addWidget(self.play_button)
 
         self.progress = QtWidgets.QProgressBar()
+        self.progress.setTextVisible(False)
         layout.addWidget(self.progress)
 
         widget = QtWidgets.QWidget()
