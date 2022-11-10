@@ -2,7 +2,7 @@ import json, os
 
 class Config:
     defaults ={
-        "version": "dev",
+        "version": "main",
         "folders": {
             "inputs": {
                 "countdowns": "inputs/countdowns/",
